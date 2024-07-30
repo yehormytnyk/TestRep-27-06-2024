@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.hero, .about, .contacts, .gallery {
+    text-align: center;
+    background-color: #fff;
+    padding: 50px 0;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-photo, .gallery-photo {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 5px solid #4CAF50;
+}
+
+.intro-text {
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    color: #555;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.contact-list li {
+    margin: 10px 0;
+}
+
+.gallery-item {
+    margin: 20px 0;
+}
+
+.gallery-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.image-container {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
